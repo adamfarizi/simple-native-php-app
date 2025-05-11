@@ -16,7 +16,6 @@ Aplikasi sederhana berbasis PHP untuk mengelola data produk. Aplikasi ini menduk
 - PHP Native
 - MySQL
 - Bootstrap 5
-- JavaScript (untuk konfirmasi hapus)
 
 ## Struktur Folder
 
@@ -46,14 +45,9 @@ project/
 1. Clone project ini:
 
 ```bash
-git clone https://github.com/username/nama-project.git
+git clone https://github.com/adamfarizi/simple-native-php-app.git
 ````
 
 2. Import database dari file `database.sql` (jika tersedia).
 3. Edit file koneksi di `database/connection.php` sesuai konfigurasi lokalmu.
 4. Jalankan di localhost dengan `XAMPP` atau `Laragon`.
-
-## Catatan
-
-* Pastikan folder `public/css` dan `public/js` tidak salah path agar CSS/JS terbaca dengan benar.
-* Gunakan `session_start()` di atas file PHP yang butuh autentikasi.
